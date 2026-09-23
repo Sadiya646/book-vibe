@@ -22,7 +22,8 @@ const Navbar = () => {
     );
 
     return (
-        <div className="navbar bg-base-100 max-w-7xl mx-auto px-4 py-4">
+       <div className='sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm'>
+         <div className="navbar bg-base-100 max-w-7xl mx-auto px-4 py-4 ">
             {/* Navbar Start: Mobile Menu & Logo */}
             <div className="navbar-start">
                 <div className="dropdown">
@@ -55,6 +56,7 @@ const Navbar = () => {
                 </a>
             </div>
         </div>
+       </div>
     );
 };
 
